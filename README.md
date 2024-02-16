@@ -46,13 +46,13 @@ Split and merge HSV Image
 
 ```python
     import cv2
-    image=cv2.imread('dog.jpg',1)
+    image=cv2.imread('dog.png',1)
     image=cv2.resize(image,(300,300))
-    cv2.imshow('leann',image)
+    cv2.imshow('3SHA',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-![304986822-297bcca7-d450-4dd4-a209-e2fd4dd0f566](https://github.com/Thirisha-s/COLOR_CONVERSIONS_OF-IMAGE/assets/120380280/4208721a-2144-4521-9f6c-1956ea39ce37)
+![image](https://github.com/Thirisha-s/COLOR_CONVERSIONS_OF-IMAGE/assets/120380280/bfccb508-249d-4773-89ec-9bb38b4d075a)
 
 ![Screenshot 2024-02-15 093755](https://github.com/Thirisha-s/COLOR_CONVERSIONS_OF-IMAGE/assets/120380280/572e8778-7c2a-4f0f-9ac5-71a9bb784ff2)
 
@@ -61,7 +61,7 @@ Split and merge HSV Image
 
 ```python
     import cv2
-    image=cv2.imread('dog.jpg',0)
+    image=cv2.imread('dog.png',0)
     cv2.imwrite('demos.jpg',image)
 ```
 ![Screenshot 2024-02-15 094552](https://github.com/Thirisha-s/COLOR_CONVERSIONS_OF-IMAGE/assets/120380280/a75a5993-67c1-42ab-aaf8-d69793e13184)
@@ -82,7 +82,7 @@ Split and merge HSV Image
 ```python
 import random
     import cv2
-    image=cv2.imread('dog.jpg',1)
+    image=cv2.imread('dog.png',1)
     image=cv2.resize(image,(500,500))
     for i in range (250,500):
       for j in range(image.shape[1]):
