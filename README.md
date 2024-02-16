@@ -71,7 +71,7 @@ Split and merge HSV Image
 
 ```python
     import cv2
-    image=cv2.imread('dop.jpg',1)
+    image=cv2.imread('dop.png',1)
     print(image.shape)
 ```
 ![Screenshot 2024-02-15 094559](https://github.com/Thirisha-s/COLOR_CONVERSIONS_OF-IMAGE/assets/120380280/a44da894-ea18-41ef-a7e8-83d17ccaf6c1)
@@ -103,7 +103,7 @@ import random
 
 ```python
   import cv2
-  image=cv2.imread('dog.jpg',1)
+  image=cv2.imread('dog.png',1)
   image=cv2.resize(image,(300,300))
   tag =image[150:200,110:160]
   image[110:160,150:200] = tag
@@ -120,7 +120,7 @@ import random
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg',1)
+img = cv2.imread('dog.png',1)
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original Image',img)
 
@@ -149,7 +149,7 @@ cv2.destroyAllWindows()
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg')
+img = cv2.imread('dog.png')
 img = cv2.resize(img,(200,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -175,7 +175,7 @@ cv2.destroyAllWindows()
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg')
+img = cv2.imread('dog.png')
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -196,7 +196,7 @@ cv2.destroyAllWindows()
 ### ix) Split and merge RGB Image
 ```python
 import cv2
-img = cv2.imread('dog.jpg',1)
+img = cv2.imread('dog.png',1)
 img = cv2.resize(img,(200,200))
 
 R = img[:,:,2]
@@ -221,7 +221,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```python
 import cv2
-img = cv2.imread("dog.jpg",1)
+img = cv2.imread("dog.png",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
